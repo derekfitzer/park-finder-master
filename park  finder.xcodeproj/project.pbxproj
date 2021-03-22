@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2FFE3DE25FF934A00C4549A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FFE3DD25FF934A00C4549A /* AppDelegate.swift */; };
+		A2FFE3E025FF934A00C4549A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FFE3DF25FF934A00C4549A /* SceneDelegate.swift */; };
+		A2FFE3E225FF934A00C4549A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FFE3E125FF934A00C4549A /* ViewController.swift */; };
+		A2FFE3E525FF934A00C4549A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FFE3E325FF934A00C4549A /* Main.storyboard */; };
+		A2FFE3E725FF934D00C4549A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FFE3E625FF934D00C4549A /* Assets.xcassets */; };
+		A2FFE3EA25FF934D00C4549A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FFE3E825FF934D00C4549A /* LaunchScreen.storyboard */; };
+		A2FFE3F525FF934D00C4549A /* park__finderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FFE3F425FF934D00C4549A /* park__finderTests.swift */; };
+		A2FFE40025FF934D00C4549A /* park__finderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FFE3FF25FF934D00C4549A /* park__finderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2FFE3F125FF934D00C4549A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2FFE3D225FF934A00C4549A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2FFE3D925FF934A00C4549A;
+			remoteInfo = "park  finder";
+		};
+		A2FFE3FC25FF934D00C4549A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2FFE3D225FF934A00C4549A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2FFE3D925FF934A00C4549A;
+			remoteInfo = "park  finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2FFE3DA25FF934A00C4549A /* park  finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "park  finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FFE3DD25FF934A00C4549A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2FFE3DF25FF934A00C4549A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A2FFE3E125FF934A00C4549A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2FFE3E425FF934A00C4549A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2FFE3E625FF934D00C4549A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2FFE3E925FF934D00C4549A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2FFE3EB25FF934D00C4549A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2FFE3F025FF934D00C4549A /* park  finderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "park  finderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FFE3F425FF934D00C4549A /* park__finderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = park__finderTests.swift; sourceTree = "<group>"; };
+		A2FFE3F625FF934D00C4549A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2FFE3FB25FF934D00C4549A /* park  finderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "park  finderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FFE3FF25FF934D00C4549A /* park__finderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = park__finderUITests.swift; sourceTree = "<group>"; };
+		A2FFE40125FF934D00C4549A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2FFE3D725FF934A00C4549A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FFE3ED25FF934D00C4549A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FFE3F825FF934D00C4549A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2FFE3D125FF934A00C4549A = {
+			isa = PBXGroup;
+			children = (
+				A2FFE3DC25FF934A00C4549A /* park  finder */,
+				A2FFE3F325FF934D00C4549A /* park  finderTests */,
+				A2FFE3FE25FF934D00C4549A /* park  finderUITests */,
+				A2FFE3DB25FF934A00C4549A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2FFE3DB25FF934A00C4549A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2FFE3DA25FF934A00C4549A /* park  finder.app */,
+				A2FFE3F025FF934D00C4549A /* park  finderTests.xctest */,
+				A2FFE3FB25FF934D00C4549A /* park  finderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2FFE3DC25FF934A00C4549A /* park  finder */ = {
+			isa = PBXGroup;
+			children = (
+				A2FFE3DD25FF934A00C4549A /* AppDelegate.swift */,
+				A2FFE3DF25FF934A00C4549A /* SceneDelegate.swift */,
+				A2FFE3E125FF934A00C4549A /* ViewController.swift */,
+				A2FFE3E325FF934A00C4549A /* Main.storyboard */,
+				A2FFE3E625FF934D00C4549A /* Assets.xcassets */,
+				A2FFE3E825FF934D00C4549A /* LaunchScreen.storyboard */,
+				A2FFE3EB25FF934D00C4549A /* Info.plist */,
+			);
+			path = "park  finder";
+			sourceTree = "<group>";
+		};
+		A2FFE3F325FF934D00C4549A /* park  finderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2FFE3F425FF934D00C4549A /* park__finderTests.swift */,
+				A2FFE3F625FF934D00C4549A /* Info.plist */,
+			);
+			path = "park  finderTests";
+			sourceTree = "<group>";
+		};
+		A2FFE3FE25FF934D00C4549A /* park  finderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2FFE3FF25FF934D00C4549A /* park__finderUITests.swift */,
+				A2FFE40125FF934D00C4549A /* Info.plist */,
+			);
+			path = "park  finderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2FFE3D925FF934A00C4549A /* park  finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FFE40425FF934D00C4549A /* Build configuration list for PBXNativeTarget "park  finder" */;
+			buildPhases = (
+				A2FFE3D625FF934A00C4549A /* Sources */,
+				A2FFE3D725FF934A00C4549A /* Frameworks */,
+				A2FFE3D825FF934A00C4549A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "park  finder";
+			productName = "park  finder";
+			productReference = A2FFE3DA25FF934A00C4549A /* park  finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2FFE3EF25FF934D00C4549A /* park  finderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FFE40725FF934D00C4549A /* Build configuration list for PBXNativeTarget "park  finderTests" */;
+			buildPhases = (
+				A2FFE3EC25FF934D00C4549A /* Sources */,
+				A2FFE3ED25FF934D00C4549A /* Frameworks */,
+				A2FFE3EE25FF934D00C4549A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2FFE3F225FF934D00C4549A /* PBXTargetDependency */,
+			);
+			name = "park  finderTests";
+			productName = "park  finderTests";
+			productReference = A2FFE3F025FF934D00C4549A /* park  finderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2FFE3FA25FF934D00C4549A /* park  finderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FFE40A25FF934D00C4549A /* Build configuration list for PBXNativeTarget "park  finderUITests" */;
+			buildPhases = (
+				A2FFE3F725FF934D00C4549A /* Sources */,
+				A2FFE3F825FF934D00C4549A /* Frameworks */,
+				A2FFE3F925FF934D00C4549A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2FFE3FD25FF934D00C4549A /* PBXTargetDependency */,
+			);
+			name = "park  finderUITests";
+			productName = "park  finderUITests";
+			productReference = A2FFE3FB25FF934D00C4549A /* park  finderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2FFE3D225FF934A00C4549A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "James Caldwell";
+				TargetAttributes = {
+					A2FFE3D925FF934A00C4549A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A2FFE3EF25FF934D00C4549A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A2FFE3D925FF934A00C4549A;
+					};
+					A2FFE3FA25FF934D00C4549A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A2FFE3D925FF934A00C4549A;
+					};
+				};
+			};
+			buildConfigurationList = A2FFE3D525FF934A00C4549A /* Build configuration list for PBXProject "park  finder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2FFE3D125FF934A00C4549A;
+			productRefGroup = A2FFE3DB25FF934A00C4549A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2FFE3D925FF934A00C4549A /* park  finder */,
+				A2FFE3EF25FF934D00C4549A /* park  finderTests */,
+				A2FFE3FA25FF934D00C4549A /* park  finderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2FFE3D825FF934A00C4549A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FFE3EA25FF934D00C4549A /* LaunchScreen.storyboard in Resources */,
+				A2FFE3E725FF934D00C4549A /* Assets.xcassets in Resources */,
+				A2FFE3E525FF934A00C4549A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FFE3EE25FF934D00C4549A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FFE3F925FF934D00C4549A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2FFE3D625FF934A00C4549A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FFE3E225FF934A00C4549A /* ViewController.swift in Sources */,
+				A2FFE3DE25FF934A00C4549A /* AppDelegate.swift in Sources */,
+				A2FFE3E025FF934A00C4549A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FFE3EC25FF934D00C4549A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FFE3F525FF934D00C4549A /* park__finderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FFE3F725FF934D00C4549A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FFE40025FF934D00C4549A /* park__finderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2FFE3F225FF934D00C4549A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2FFE3D925FF934A00C4549A /* park  finder */;
+			targetProxy = A2FFE3F125FF934D00C4549A /* PBXContainerItemProxy */;
+		};
+		A2FFE3FD25FF934D00C4549A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2FFE3D925FF934A00C4549A /* park  finder */;
+			targetProxy = A2FFE3FC25FF934D00C4549A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2FFE3E325FF934A00C4549A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2FFE3E425FF934A00C4549A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2FFE3E825FF934D00C4549A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2FFE3E925FF934D00C4549A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2FFE40225FF934D00C4549A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2FFE40325FF934D00C4549A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2FFE40525FF934D00C4549A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "park  finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrfitzer.park--finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2FFE40625FF934D00C4549A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "park  finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrfitzer.park--finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2FFE40825FF934D00C4549A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "park  finderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrfitzer.park--finderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/park  finder.app/park  finder";
+			};
+			name = Debug;
+		};
+		A2FFE40925FF934D00C4549A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "park  finderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrfitzer.park--finderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/park  finder.app/park  finder";
+			};
+			name = Release;
+		};
+		A2FFE40B25FF934D00C4549A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "park  finderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrfitzer.park--finderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "park  finder";
+			};
+			name = Debug;
+		};
+		A2FFE40C25FF934D00C4549A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "park  finderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrfitzer.park--finderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "park  finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2FFE3D525FF934A00C4549A /* Build configuration list for PBXProject "park  finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FFE40225FF934D00C4549A /* Debug */,
+				A2FFE40325FF934D00C4549A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FFE40425FF934D00C4549A /* Build configuration list for PBXNativeTarget "park  finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FFE40525FF934D00C4549A /* Debug */,
+				A2FFE40625FF934D00C4549A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FFE40725FF934D00C4549A /* Build configuration list for PBXNativeTarget "park  finderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FFE40825FF934D00C4549A /* Debug */,
+				A2FFE40925FF934D00C4549A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FFE40A25FF934D00C4549A /* Build configuration list for PBXNativeTarget "park  finderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FFE40B25FF934D00C4549A /* Debug */,
+				A2FFE40C25FF934D00C4549A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2FFE3D225FF934A00C4549A /* Project object */;
+}
