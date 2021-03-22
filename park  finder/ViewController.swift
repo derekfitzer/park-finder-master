@@ -124,7 +124,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         }
         let placemark = currentMapItem.placemark
         if let parkName = placemark.name, let  streetNumber = placemark.subThoroughfare, let streetName = placemark.thoroughfare {
-//            let streetAddress = streetNumber + " " + streetName
+            let streetAddress = streetNumber + " " + streetName
 //            let streetAddress = "\(String(annotation.coordinate))"
             let alert = UIAlertController(title: parkName, message: streetAddress, preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "ok", style: .default, handler: nil))
