@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 
 class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
-    
+    //hello world
     @IBOutlet weak var textArea: UITextField!
     @IBOutlet weak var segmentedController: UISegmentedControl!
     let locationManager = CLLocationManager()
@@ -55,7 +55,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         currentLocation = locations[0]
     }
     @IBAction func whenZoom(_ sender: Any) {
-        let cordinateSpan = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
+        let cordinateSpan = MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2)
         let center = currentLocation.coordinate
         let region = MKCoordinateRegion(center: center, span: cordinateSpan)
         mapView.setRegion(region, animated: true)
